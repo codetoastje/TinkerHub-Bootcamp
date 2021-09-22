@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Ubuntu:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    font-family: 'poppins', sans-serif;
+
+}
+
+main{
+    width:100%;
+    margin:auto;
+}
+.home{
+    display: flex;
+
+    width:100%;
+    
+    margin:auto;
+    min-height: 100vh;
+    /*align-items: center; */
+    background-image: url('bg.png')
+
+}
+.home-lt{
+    width:20vw;
+    height: 70vh;
+    float: left;
+    background: white;
+    margin:5% 0% 5% 25%;
+    text-align:center;
+    border-radius: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.home-lt-dp{
+    
+    width:25vmin;
+    height:25vmin;
+    
+    margin: 5vh auto;
+    background:#000;
+    border-radius: 50%;
+}
+.home-lt-dp img{
+    max-width: 100%;
+    max-height: 100%;
+    
+    border-radius: 50%;
+    
+}
+.home-lt-content{
+    width: 80%;
+    margin: auto;
+    height: 40%;
+}
+.home-lt-socials{
+    width:100%;
+    height:10%;
+    background:white;
+    border-radius: 20px;
+   
+}
+.home-lt-socials i{
+    margin: 2%;
+    font-size: 5vh;
+    color:#3f3f3f
+
+}
+.home-lt-socials i:hover{
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: #ec3a00;
+}
+.fa-github-square:hover{
+    color: pink;
+}
+.fa-linkedin:hover{
+    color: #0a66c2;
+}
+.home-rt{
+    padding:5vmax;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.home-rt h1{
+    font-size: 7vmax;
+    color: white;
+    
+}
+
+.home-rt p{
+    font-size: 3vmin;
+    color: white;
+}
